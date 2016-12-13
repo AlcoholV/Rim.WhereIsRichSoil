@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TerrainDefs>
+	<TerrainDef>
+		<defName>SoilRich</defName>
+		<label>rich soil</label>
+		<texturePath>SoilDark</texturePath>
+		<EdgeType>FadeRough</EdgeType>
+		<RenderPrecedence>335</RenderPrecedence>
+		<PathCost>2</PathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<TerrainFilthDef>FilthDirt</TerrainFilthDef>
+		<Fertility>1.4</Fertility>
+		<TakeFootprints>True</TakeFootprints>
+	</TerrainDef>
+</TerrainDefs>
